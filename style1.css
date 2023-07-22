@@ -1,0 +1,120 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+  background-image: linear-gradient(rgba(32,67,133,0.9), rgba(41,89,179,0.9)),url('image/temp_1582027801503100.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: blur(1px) saturate(35%);
+}
+
+
+.title{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: translateY(200px);
+  font-size: 60px;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+}
+
+.login{
+  position: relative;
+}
+
+
+.login,
+.password,
+.loginbutton,
+.find,
+.user{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(300px);
+}
+
+.login,
+.password{
+  padding: 10px;
+}
+
+.login input,
+.password input{
+  width: 325px;
+  height: 39px;
+  line-height: 100%;
+  padding : 0px 0px 0px 33px;
+  overflow: hidden; 
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+input::placeholder{
+  color: white;
+}
+
+
+
+
+
+.login i,
+.password i{
+  color: white;
+  transform: translateX(22px);
+}
+
+.loginbutton button{
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  color: #3584FF; 
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  
+}
+
+
+.password,
+.loginbutton{
+  padding: 30px;
+}
+
+.loginbutton,
+.find{
+  padding: 20px;
+}
+
+
+
+.find,
+.finduser{
+  padding-left: 25px;
+
+}
+
+
+
+.find > a{
+  color: gray;
+}
+
+.user > a{
+  color :white;
+}
+
+
